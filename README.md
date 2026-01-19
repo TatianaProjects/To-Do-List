@@ -14,3 +14,7 @@ Task management web application built with JavaScript.
 
 ## Live Demo
 https://todolistscheduleproject.netlify.app/
+
+### Screenshots
+
+<img src="todo_preview.jpg" alt="To do list Preview" width="400">
