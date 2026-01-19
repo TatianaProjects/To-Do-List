@@ -1,20 +1,17 @@
-# To Do List
+## To Do List 📝
 
-Task management web application built with JavaScript.
+A task manager to track daily tasks. Add, delete, and mark tasks as complete.
 
-## Features
-- Add, edit, and delete tasks
-- Mark tasks as completed
-- Responsive design for all screen sizes
+### Features
+- Task creation and deletion
+- Responsive layout
 
-## Technologies
-- HTML
-- CSS
-- JavaScript
+### Demo
+[Live Demo on Netlify](https://todolistscheduleproject.netlify.app/)
 
-## Live Demo
-https://todolistscheduleproject.netlify.app/
+### Screenshot
+<img src="todo_preview.jpg" alt="To Do List Preview" width="400">
 
-### Screenshots
+### Technologies
+JavaScript, HTML5, CSS3
 
-<img src="todo_preview.jpg" alt="To do list Preview" width="400">
