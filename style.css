@@ -1,0 +1,103 @@
+
+body{
+    background-image: url(toDo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #C4E1E6;
+    min-height: 100vh;
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 60px;
+    background: linear-gradient(to left,#8DBCC7,#EBFFD8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   
+}
+
+.inputField{
+    padding: 12px 15px;
+    width: 300px;
+    max-width: 70%;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.btn{
+    padding: 12px 20px;
+    background: #8DBCC7;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background: #6aa0a8;
+    transform: scale(1.05);
+}
+
+.toDoAdded{
+    background: rgba(255,255,255,0.8);
+    list-style-type: none;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.toDoAdded:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.toDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;    
+    padding: 0 10px;      
+    box-sizing: border-box;
+}
+.toDoCompleted{
+    background: #8DBCC7;
+    color: #332D56;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 0.5s ease;
+}
+
+@media all and (max-width: 800px){
+    h1 { font-size: 40px; text-align: center; }
+    .inputField { width: 60%; }
+}
+
+@media all and (max-width: 500px){
+    h1 { font-size: 28px; }
+    .inputField { width: 70%; }
+    .btn { padding: 10px 12px; font-size: 16px; }
+    .toDoAdded { font-size: 16px; padding: 12px; }
+}
